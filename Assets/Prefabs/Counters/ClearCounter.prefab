@@ -31,7 +31,7 @@ Transform:
   m_Father: {fileID: 6610722729013297243}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &4445603673527778411
+--- !u!1 &4550324405279732772
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -39,23 +39,23 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5873385792854828411}
-  - component: {fileID: 2401603796650900872}
-  - component: {fileID: 320151930686426740}
+  - component: {fileID: 2485721601962999003}
+  - component: {fileID: 1715389480621736813}
+  - component: {fileID: 4158682550991374966}
   m_Layer: 0
   m_Name: KitchenCounter (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &5873385792854828411
+  m_IsActive: 1
+--- !u!4 &2485721601962999003
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4445603673527778411}
+  m_GameObject: {fileID: 4550324405279732772}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.65, y: 1.5, z: 1.65}
@@ -64,21 +64,21 @@ Transform:
   m_Father: {fileID: 7210247936333268931}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &2401603796650900872
+--- !u!33 &1715389480621736813
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4445603673527778411}
+  m_GameObject: {fileID: 4550324405279732772}
   m_Mesh: {fileID: -4134462517785884784, guid: e3d496c6436b0cf4a8eef3d8865e8639, type: 3}
---- !u!23 &320151930686426740
+--- !u!23 &4158682550991374966
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4445603673527778411}
+  m_GameObject: {fileID: 4550324405279732772}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -268,7 +268,7 @@ PrefabInstance:
     - target: {fileID: 8489276541531669327, guid: 0004cb1e11ad014419b943c7da960724,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8489276541531669327, guid: 0004cb1e11ad014419b943c7da960724,
         type: 3}
@@ -397,7 +397,7 @@ PrefabInstance:
     - target: {fileID: 8489276541531669327, guid: 0004cb1e11ad014419b943c7da960724,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -405,7 +405,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4589716710238282923, guid: 0004cb1e11ad014419b943c7da960724,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 5873385792854828411}
+      addedObject: {fileID: 2485721601962999003}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0004cb1e11ad014419b943c7da960724, type: 3}
 --- !u!4 &7210247936333268931 stripped
